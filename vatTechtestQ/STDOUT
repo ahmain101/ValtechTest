@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="40.833925">
+    <testcase classname="Valtech test Question" name="Go to the Valtech website and check that the Latest News section is displayed" time="16.165745">
+        <system-out>
+            <![CDATA[Given I browse to the Valtech website.......................................passed
+Then the Latest News section is displayed...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Valtech test Question" name="Go to the Valtech website and navigate across About, Services and Work Pages" time="12.057075">
+        <failure message="org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (418, 36). Other element would receive the click: &lt;div id=&quot;CybotCookiebotDialog&quot; name=&quot;CybotCookiebotDialog&quot; role=&quot;alertdialog&quot; aria-describedby=&quot;CybotCookiebotDialogBodyContentTitle&quot; lang=&quot;en&quot; dir=&quot;ltr&quot; ng-non-bindable=&quot;&quot; style=&quot;display: block; opacity: 1; top: 0px; width: 100%; height: auto;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=67.0.3396.87)&#10;  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'LAPTOP-K8CC9QQR', ip: '192.168.1.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\Andy\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}&#10;Session ID: b03d3847cfa148b67dc1f88933338689&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;&#10;&#9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)&#13;&#10;&#9;at com.valtech.vatTechtestQ.stepDefinitions.valtechQsteps.select_a_navigation_button(valtechQsteps.java:61)&#13;&#10;&#9;at ✽.And select a navigation button(C:/ValtechTestQ/vatTechtestQ/src/test/java/com/valtech/vatTechtestQ/featureFiles/valtechQ.feature:9)&#13;&#10;">
+            <![CDATA[Given I browse to the Valtech website.......................................passed
+And select a navigation button..............................................failed
+Then the tag displays the correct page name.................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (418, 36). Other element would receive the click: <div id="CybotCookiebotDialog" name="CybotCookiebotDialog" role="alertdialog" aria-describedby="CybotCookiebotDialogBodyContentTitle" lang="en" dir="ltr" ng-non-bindable="" style="display: block; opacity: 1; top: 0px; width: 100%; height: auto;">...</div>
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-K8CC9QQR', ip: '192.168.1.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\Andy\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: b03d3847cfa148b67dc1f88933338689
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.valtech.vatTechtestQ.stepDefinitions.valtechQsteps.select_a_navigation_button(valtechQsteps.java:61)
+	at ✽.And select a navigation button(C:/ValtechTestQ/vatTechtestQ/src/test/java/com/valtech/vatTechtestQ/featureFiles/valtechQ.feature:9)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Valtech test Question" name="Go to the Valtech website and Navigate to the Contact Page and output how many Valtech offices there are in total." time="12.611105">
+        <system-out>
+            <![CDATA[Given I browse to the Valtech website.......................................passed
+Given I navigate to the Contact Page........................................passed
+And the contact us information is displayed.................................passed
+Then I output how many valtech offices there are............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
